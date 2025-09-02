@@ -4,7 +4,7 @@ from calculos import calcular_costo, resumen
 class SistemaElectrico:
     def __init__(self):
         self.aparatos = []
-
+ 
     def ejecutar(self):
         print("=== Sistema de Control de Gasto Eléctrico ===")
         print("Registra tus aparatos y conoce tu consumo mensual.\n")
